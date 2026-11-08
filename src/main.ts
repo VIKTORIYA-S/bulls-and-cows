@@ -1,1 +1,1 @@
-console.log("Bulls and Cows");
+console.log('Bulls and Cows');
