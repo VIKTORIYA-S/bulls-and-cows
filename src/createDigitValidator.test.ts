@@ -26,4 +26,10 @@ describe('createDigitValidator', () => {
     expect(isHexDigit('g')).toBe(false);
     expect(isHexDigit('-')).toBe(false);
   });
+
+  it('отвергает пустую строку и строки длиннее одного символа', () => {
+    const isBinaryDigit = createDigitValidator(2);
+    expect(isBinaryDigit('')).toBe(false);
+    expect(isBinaryDigit('01')).toBe(false);
+  });
 });
