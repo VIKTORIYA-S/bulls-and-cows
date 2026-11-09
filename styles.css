@@ -1,0 +1,46 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f4f8;
+  margin: 0;
+}
+
+.app {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+}
+
+select,
+input,
+button {
+  font-size: 1rem;
+  padding: 6px 10px;
+  margin-right: 6px;
+}
+
+input {
+  text-transform: lowercase;
+  letter-spacing: 2px;
+}
+
+.message {
+  color: #b00020;
+  min-height: 1.2em;
+}
+
+.badge {
+  background: #dde;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+}
+
+.win {
+  color: #1b7f3b;
+  font-weight: bold;
+}
